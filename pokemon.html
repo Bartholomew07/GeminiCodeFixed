@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotta Catch 'Em All: Pokémon Games!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Welcome, Trainers!</h1>
+        <nav class="nav">
+            <button class="nav-button" onclick="showGame('red-green')">Red & Green</button>
+            <button class="nav-button" onclick="showGame('yellow')">Yellow</button>
+            <button class="nav-button" onclick="showGame('gold-silver')">Gold & Silver</button>
+            <button class="nav-button" onclick="showGame('ruby-sapphire')">Ruby & Sapphire</diamond>
+            <button class="nav-button" onclick="showGame('diamond-pearl')">Diamond & Pearl</button>
+            </nav>
+    </header>
+    <main class="main">
+        <section class="game-card hidden" id="red-green">
+            <img src="images/red-green.jpg" alt="Pokemon Red & Green cover art" class="game-thumbnail"> <h2>Pokémon Red & Green</h2>
+            <p>The legendary first generation! Catch Bulbasaur, Charmander, Squirtle, and embark on your Pokémon journey in Kanto.</p>
+        </section>
+        <section class="game-card hidden" id="yellow">
+            <img src="images/yellow.jpg" alt="Pokemon Yellow cover art" class="game-thumbnail"> <h2>Pokémon Yellow</h2>
+            <p>Gotta catch Pikachu! This special edition focuses on everyone's favorite electric mouse Pokémon.</p>
+        </section>
+        <section class="game-card hidden" id="gold-silver">
+            <img src="images/gold-silver.jpg" alt="Pokemon Gold & Silver cover art" class="game-thumbnail"> <h2>Pokémon Gold & Silver</h2>
+            <p>Travel across Johto, a new region full of unique Pokémon! Introduce yourself to day and night cycles for the first time.</p>
+        </section>
+        <section class="game-card hidden" id="ruby-sapphire">
+            <img src="images/ruby-sapphire.jpg" alt="Pokemon Ruby & Sapphire cover art" class="game-thumbnail"> <h2>Pokémon Ruby & Sapphire</h2>
+            <p>Explore the tropical Hoenn region and encounter double battles for the first time!</p>
+        </section>
+        <section class="game-card hidden" id="diamond-pearl">
+            <img src="images/diamond-pearl.jpg" alt="Pokemon Diamond & Pearl cover art" class="game-thumbnail"> <h2>Pokémon Diamond & Pearl</h2>
+            <p>Return to Sinnoh with enhanced graphics and a new storyline. Befriend the legendary Dialga or Palkia!</p>
+        </section>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
